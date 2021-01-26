@@ -1,0 +1,67 @@
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	min-height: 90vh;
+	-webkit-user-select: none;
+	-webkit-touch-callout: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.title {
+	margin: 0;
+	padding: 0;
+	font-size: 5vh;
+	font-weight: 600;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	/* font-family: 'Courier New', Courier, monospace; */
+}
+.info {
+	/* font-family: Arial, Helvetica, sans-serif; */
+	font-family: 'Courier New', Courier, monospace;
+
+	font-size: 3vh;
+	text-align: center;
+	font-weight: 50;
+	margin: 0;
+	padding: 0;
+}
+.clickArea {
+	width: 80vw;
+	height: 50vh;
+	margin: 15px 7vw;
+	border-style: solid;
+	border-color: red;
+	border-width: 5px;
+	font-size: 60px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.clickAmount {
+	font-size: 80px;
+	font-weight: 600;
+	font-family: 'Courier New', Courier, monospace;
+}
+.btn {
+	margin-top: 0px;
+	font-size: 3vh;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 500;
+	background-color: e7e7e7;
+	color: black;
+	height: 12vh;
+	width: 40vw;
+	margin-bottom: 5px;
+}
+
+.copyright {
+	font-size: 2.5vh;
+	font-family: 'Courier New', Courier, monospace;
+}
